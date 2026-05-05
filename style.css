@@ -1,0 +1,19 @@
+.row {
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+body {
+    background-color: #fdf4e6;
+    color: #bb6032;
+}
+
+.dark-mode {
+    background-color: #456145;
+    color: rgb(237, 248, 207);
+}
+
+.infocolor {
+    background-color: #FCFAEE;
+}
