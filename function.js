@@ -1,8 +1,10 @@
 let catImg = document.getElementById("kitty");
 let email = document.getElementById("email");
+let emailInput = document.getElementById("exampleFormControlInput1");
+let maingb = document.getElementById("top");
 let bodycolor = document.body;
-
 var kitcolor = "orange";
+var mainbgstate = "light";
 
 
 function imgChange() {
@@ -17,6 +19,7 @@ function imgChange() {
 
 }
 
+
 function hideEmail() {
     email.style.color = "#d47c4f";
     email.innerHTML = "<h2>¡Gracias! Estaremos en contacto</h2>";
@@ -24,4 +27,14 @@ function hideEmail() {
 
 function  darkMode() {
     bodycolor.classList.toggle("dark-mode");
+
+    /*if (mainbgstate === "light"){
+        maingb.style.backgroundImage = url(images/background_dark.png);
+        mainbgstate = "dark";
+    }
+    else {
+        maingb.style.backgroundImage = url(images/background_light.png);
+        mainbgstate = "light";
+    }*/
+
 }
